@@ -25,18 +25,17 @@ const ProfileComponent = () => {
 
             <div className="profile-summary-section">
                 <h4>Profile Summary</h4>
-                <div className="Profile-Rectangle">{}</div>
+                <textarea className="summary-box" rows="4" />
             </div>
 
             <div className="employment-summary-section">
                 <h4>Employment Summary</h4>
-                <input type="text" className="input-box" />
-                <input type="text" className="input-box" />
+                <textarea className="summary-box" rows="4" />
             </div>
 
             <div className="education-section">
                 <h4>Education</h4>
-                <input type="text" className="input-box" />
+                <textarea className="summary-box" rows="4" />
             </div>
 
             <div className="continue-section">

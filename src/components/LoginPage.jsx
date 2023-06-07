@@ -6,6 +6,7 @@ import CheckboxComponent from './CheckboxComponent';
 import TopicSelectionComponent from './TopicSelectionComponent';
 import MentorTypeComponent from './MentorTypeComponent';
 import ProfileComponent from './ProfileComponent';
+import CareerOptionsComponent from './CareerOptionsComponent';
 
 const LoginPage = () => {
     const [login1Data, setLogin1Data] = useState({
@@ -124,6 +125,9 @@ const LoginPage = () => {
             </div>
         <div>
             <ProfileComponent/>
+        </div>
+        <div>
+            <CareerOptionsComponent/>
         </div>
         </div>
     );

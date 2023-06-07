@@ -1,412 +1,530 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #4CAF50;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  
-  .box {
-    background-color: #f2f2f2;
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-  
-  .input-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .input-container input {
-    flex-grow: 1;
-    padding: 5px;
-    margin-right: 10px;
-  }
-  
-  .input-container button {
-    padding: 8px 12px;
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .input-container button:hover {
-    background-color: #4CAF50;
-  }
+  margin: 0;
+  padding: 0;
+  background-color: #4CAF50;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-container input {
+  flex-grow: 1;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.input-container button {
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #4CAF50;
+}
 
 
 .login-box {
-    /* other styles... */
-    text-align: center; /* Add this line to align the content in the center */
-  }
-  
-  .login-buttons {
-    margin-bottom: 20px;
-  }
-  
-  .login-button {
-    /* your button styles... */
-    margin-right: 20px;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100vh;
-    background-color:#4CAF50;
-    padding-top: 50px;
-  }
+  /* other styles... */
+  text-align: center;
+  /* Add this line to align the content in the center */
+}
 
-  .outer-box {
-    padding: 50px 40px;
-    background-color: white;
-    border: 1px solid black;
-    
-  }
+.login-buttons {
+  margin-bottom: 20px;
+}
 
-  .second-login-box {
-    margin-top: 50px; /* Add margin-top to create space between the login boxes */
-    padding: 70px 180px;
-    background-color: white;
-    border: 1px solid black;
-  }
-  
-  .login-buttons {
-    margin-bottom: 10px;
-  }
-  
-  .login-button {
-    margin-right: 20px;
-  }
-  
-  .login-field {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  .radio-button-box {
-    margin-top: 50px;
-    padding: 20px 60px;
-    background-color: white;
-    border: 1px solid black;
-  }
-  
-  .radio-button-box h2 {
-    margin-bottom: 10px;
-  }
-  
-  .radio-button-container label {
-    display: block;
-    margin-bottom: 10px;
-  }
+.login-button {
+  /* your button styles... */
+  margin-right: 20px;
+}
 
-  .connect-box {
-    margin-top: 50px;
-    padding: 10px 85px;
-    border: 1px solid #ccc;
-    background-color: #f2f2f2;
-    border: 1px solid black;
-  }
-  
-  .connect-box h2 {
-    margin-bottom: 10px;
-  }
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background-color: #4CAF50;
+  padding-top: 50px;
+}
 
-  .input-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .input-container input {
-    flex-grow: 1;
-    padding: 5px;
-    margin-right: 10px;
-  }
-  
-  .input-container button {
-    padding: 8px 12px;
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .input-container button:hover {
-    background-color:#4CAF50;
-  }
+.outer-box {
+  padding: 50px 40px;
+  background-color: white;
+  border: 1px solid black;
 
-  .connect-box button:hover {
-    background-color: darkgray;
-  }
-  
-  .checkbox-box {
-    margin-top: 50px;
-    border: 1px solid #ccc;
-    padding: 30px 30px;
-    background-color: #f9f9f9;
-    align-items: center;
-    border: 1px solid black;
-  }
-  
-  .checkbox-box h2 {
-    margin-bottom: 10px;
-  }
-  
-  .checkbox-box div {
-    margin-bottom: 10px;
-  }
-  
-  .checkbox-box label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .checkbox-box input[type="checkbox"] {
-    display: inline-block;
-    margin-right: 5px;
-    
-  }
-  
-  .checkbox-box button {
-    padding: 10px 20px;
-    background-color: gray;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    align-content: center;
-  }
-  
-  .checkbox-box button:hover {
-    background-color: darkgray;
-  }
-  
-  .topic-selection-box {
-    margin-top: 50px;
-    background-color: #f2f2f2;
-    padding: 10px 25px;
-    border-radius: 0; /* Remove the border-radius property */
-    border: 1px solid black;
-    align-items: center;
-  }
-  
-  .topic-selection-box h2 {
-    margin-bottom: 10px;
-  }
-  
-  .topic-selection-box div {
-    margin-bottom: 10px;
-  }
-  
-  .topic-selection-box label {
-    display: block;
-    align-items: center;
-  }
-  
-  .topic-selection-box input[type="checkbox"] {
-    margin-right: 10px;
-  }
+}
 
-  .mentor-type-box {
-    background-color: #f2f2f2;
-    padding: 10px 9px;
-    border-radius: 0;
-    margin-top: 50px;
-    border: 1px solid black;
+.second-login-box {
+  margin-top: 50px;
+  /* Add margin-top to create space between the login boxes */
+  padding: 70px 180px;
+  background-color: white;
+  border: 1px solid black;
+}
 
-  }
-  
-  .mentor-type-box h2 {
-    margin-bottom: 10px;
-  }
-  
-  .mentor-type-box div {
-    margin-bottom: 10px;
-  }
-  
-  .mentor-type-box label {
-    display: block;
-  }
-  
-  .mentor-type-box input[type="checkbox"] {
-    margin-right: 10px;
-  }
-  
-  .mentor-type-box button {
-    background-color: rgb(133, 2, 199);
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+.login-buttons {
+  margin-bottom: 10px;
+}
 
-  .profile-box {
-    background-color: white;
-    margin-top: 50px;
-    width: 400px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px 45px;
-    border: 1px solid black;
-  }
-  
-  .profile-box h2 {
-    margin-bottom: 20px;
-  }
-  
-  .photo-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .profile-circle {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background-color: #ccc;
-    margin-bottom: 10px;
-    margin-top: 50px;
-    margin-right: 180px;
-  }
-  
-  .photo-section h3 {
-    margin-bottom: 10px;
-  }
-  
-  .photo-section a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  .profile-summary-section,
-  .employment-summary-section,
-  .education-section,
-  .continue-section {
-    margin-bottom: 20px;
-  }
-  
-  .profile-summary-section h4,
-  .employment-summary-section h4,
-  .education-section h4 {
-    margin-bottom: 10px;
-  }
-  
-  .input-box {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .continue-section button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .profile-section {
-    display: flex;
-    align-items: center;
-  }
-  
-  .photo-section {
-    margin-right: 20px;
-    /* Adjust the margin as needed */
-  }
-  
-  .profile-circle {
-    width: 100px; /* Adjust the size of the profile circle */
-    height: 100px;
-    border-radius: 50%;
-    background-color: #e3e3e3; /* Add desired background color */
-  }
-  
-  .profile-info {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .profile-heading {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px; /* Add desired margin */
-  }
-  
-  .profile-heading-item {
-    font-size: 14px; /* Adjust the font size as needed */
-    margin-top: 20px;
-  }
-  
- 
-  .profile-section {
-    display: flex;
-    align-items: center;
-  }
-  
-  .photo-section {
-    margin-right: 10px; /* Adjust the margin as needed */
+.login-button {
+  margin-right: 20px;
+}
 
-  }
+.login-field {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.radio-button-box {
+  margin-top: 50px;
+  padding: 20px 60px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.radio-button-box h2 {
+  margin-bottom: 10px;
+}
+
+.radio-button-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.connect-box {
+  margin-top: 50px;
+  padding: 10px 85px;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+  border: 1px solid black;
+}
+
+.connect-box h2 {
+  margin-bottom: 10px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-container input {
+  flex-grow: 1;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.input-container button {
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #4CAF50;
+}
+
+.connect-box button:hover {
+  background-color: darkgray;
+}
+
+.checkbox-box {
+  margin-top: 50px;
+  border: 1px solid #ccc;
+  padding: 30px 30px;
+  background-color: #f9f9f9;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.checkbox-box h2 {
+  margin-bottom: 10px;
+}
+
+.checkbox-box div {
+  margin-bottom: 10px;
+}
+
+.checkbox-box label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.checkbox-box input[type="checkbox"] {
+  display: inline-block;
+  margin-right: 5px;
+
+}
+
+.checkbox-box button {
+  padding: 10px 20px;
+  background-color: gray;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  align-content: center;
+}
+
+.checkbox-box button:hover {
+  background-color: darkgray;
+}
+
+.topic-selection-box {
+  margin-top: 50px;
+  background-color: #f2f2f2;
+  padding: 10px 25px;
+  border-radius: 0;
+  /* Remove the border-radius property */
+  border: 1px solid black;
+  align-items: center;
+}
+
+.topic-selection-box h2 {
+  margin-bottom: 10px;
+}
+
+.topic-selection-box div {
+  margin-bottom: 10px;
+}
+
+.topic-selection-box label {
+  display: block;
+  align-items: center;
+}
+
+.topic-selection-box input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.mentor-type-box {
+  background-color: #f2f2f2;
+  padding: 10px 9px;
+  border-radius: 0;
+  margin-top: 50px;
+  border: 1px solid black;
+
+}
+
+.mentor-type-box h2 {
+  margin-bottom: 10px;
+}
+
+.mentor-type-box div {
+  margin-bottom: 10px;
+}
+
+.mentor-type-box label {
+  display: block;
+}
+
+.mentor-type-box input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.mentor-type-box button {
+  background-color: rgb(133, 2, 199);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.profile-box {
+  background-color: white;
+  margin-top: 50px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px 45px;
+  border: 1px solid black;
+}
+
+.profile-box h2 {
+  margin-bottom: 20px;
+}
+
+.photo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-right: 180px;
+}
+
+.photo-section h3 {
+  margin-bottom: 10px;
+}
+
+.photo-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.profile-summary-section,
+.employment-summary-section,
+.education-section,
+.continue-section {
+  margin-bottom: 20px;
+}
+
+.profile-summary-section h4,
+.employment-summary-section h4,
+.education-section h4 {
+  margin-bottom: 10px;
+
+}
+
+.input-box {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.continue-section button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+}
+
+.photo-section {
+  margin-right: 20px;
+  /* Adjust the margin as needed */
+}
+
+.profile-circle {
+  width: 100px;
+  /* Adjust the size of the profile circle */
+  height: 100px;
+  border-radius: 50%;
+  background-color: #e3e3e3;
+  /* Add desired background color */
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  /* Add desired margin */
+}
+
+.profile-heading-item {
+  font-size: 14px;
+  /* Adjust the font size as needed */
+  margin-top: 20px;
+}
+
+
+.profile-section {
+  display: flex;
+  align-items: center;
+}
+
+.photo-section {
+  margin-right: 10px;
+  /* Adjust the margin as needed */
+
+}
+
+.profile-circle {
+  width: 100px;
+  /* Adjust the size of the profile circle */
+  height: 100px;
+  border-radius: 50%;
+  background-color: #e3e3e3;
+  /* Add desired background color */
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Add any additional styling as per your requirements */
+
+.photo-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-circle {
+  /* Styles for the profile circle */
+  width: 100px;
+  height: 100px;
+  border-radius: 60%;
+  background-color: #c4c4c4;
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: -200px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: -90px;
+  margin-left: 100px;
+}
+
+.profile-links {
+  margin-top: 5px;
+}
+
+.profile-links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.profile-summary-section h4 {
+  margin-left: 40px;
+  margin-top: 60px;
+}
+
+.profile-summary-section textarea {
+  margin-left: 170px;
+  margin-top: -50px;
+  background-color: rgba(199, 195, 195, 0.8);
+  border-color: white;
+}
+
+.employment-summary-section textarea {
+  margin-left: 170px;
+  margin-top: -100px;
+  background-color: rgba(199, 195, 195, 0.8);
+  border-color: white;
+}
+.employment-summary-section h4{
+  margin-top: 40px;
+}
+
+.education-section textarea
+{
   
-  .profile-circle {
-    width: 100px; /* Adjust the size of the profile circle */
-    height: 100px;
-    border-radius: 50%;
-    background-color: #e3e3e3; /* Add desired background color */
-  }
-  
-  .profile-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  /* Add any additional styling as per your requirements */
-  
-  .photo-section {
-    display: flex;
-    align-items: center;
-  }
-  
-  .profile-circle {
-    /* Styles for the profile circle */
-    width: 100px;
-    height: 100px;
-    border-radius: 60%;
-    background-color: #c4c4c4;
-    margin-right: 0px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    margin-left: -140px;
-  }
-  
-  .profile-info {
-    display: flex;
-    flex-direction: column;
-    margin-top: -90px;
-    margin-left: 150px;
-  }
-  
-  .profile-links {
-    margin-top: 5px;
-  }
-  
-  .profile-links a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
+  margin-left: 170px;
+  margin-top: -50px;
+  background-color: rgba(199, 195, 195, 0.8);
+  border-color: white;
+}
+
+.education-section h4 
+{
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+.continue-section button
+{
+  margin-left: 25%;
+  width: 50%;
+  background-color: #8e19c0;
+}
+
+.career-options-box {
+  background-color: white;
+  margin-top: 50px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px 45px;
+  border: 1px solid black;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.save-continue-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.save-continue-button {
+  background-color: #8e19c0;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.career-option-button {
+
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.detail-time,
+.detail-amount {
+
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
